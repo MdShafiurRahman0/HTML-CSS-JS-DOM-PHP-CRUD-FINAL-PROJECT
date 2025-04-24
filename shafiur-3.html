@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+  <title>DOM Manipulation Example</title>
+
+</head>
+
+<body>
+
+  <h2 id="title">Welcome to My Page</h2>
+
+  <button onclick="changeHeading()">ClickMe</button>
+
+  <script>
+
+    function changeHeading()
+    
+    {
+        
+      let heading = document.getElementById("title");
+
+      heading.style.color = "red";
+
+      heading.textContent = "Para Nai Chill!";
+
+      heading.style.fontSize = "30px";
+
+
+    }
+
+  </script>
+
+</body>
+
+
+</html>

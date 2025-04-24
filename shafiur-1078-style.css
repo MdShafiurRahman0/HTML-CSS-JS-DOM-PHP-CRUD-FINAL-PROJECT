@@ -1,0 +1,45 @@
+body  
+
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    flex-direction: column;
+
+
+
+}
+
+
+
+blockquote 
+
+
+{
+    background-color: lightyellow;
+    border: 5px line #ccc;
+    padding: 15px;
+    font-style: italic;
+    text-align: center;
+    max-width: 900px;
+    margin: 10;
+
+
+
+}
+
+
+
+
+h3 {
+
+
+    text-align: center;
+    margin-top: 10px;
+
+
+
+}
